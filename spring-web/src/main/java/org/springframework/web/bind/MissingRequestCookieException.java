@@ -43,7 +43,7 @@ public class MissingRequestCookieException extends ServletRequestBindingExceptio
 	public MissingRequestCookieException(String cookieName, MethodParameter parameter) {
 		super("");
 		this.cookieName = cookieName;
-		this.parameter = parameter;;;;
+		this.parameter = parameter;;;;;
 	}
 
 
